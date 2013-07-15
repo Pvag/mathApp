@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23398150178EE4DA00209756 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2339814F178EE4DA00209756 /* Cocoa.framework */; };
+		2339815A178EE4DA00209756 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23398158178EE4DA00209756 /* InfoPlist.strings */; };
+		2339815C178EE4DA00209756 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2339815B178EE4DA00209756 /* main.m */; };
+		23398160178EE4DA00209756 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2339815E178EE4DA00209756 /* Credits.rtf */; };
+		23398166178EE4DA00209756 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23398164178EE4DA00209756 /* MainMenu.xib */; };
+		2339816E178EE50400209756 /* Control.m in Sources */ = {isa = PBXBuildFile; fileRef = 2339816D178EE50400209756 /* Control.m */; };
+		23398171178EE51700209756 /* MathModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 23398170178EE51700209756 /* MathModel.m */; };
+		D82210E817942A4D00B3D6C2 /* division.png in Resources */ = {isa = PBXBuildFile; fileRef = D82210E517942A4D00B3D6C2 /* division.png */; };
+		D82210E917942A4D00B3D6C2 /* minus.png in Resources */ = {isa = PBXBuildFile; fileRef = D82210E617942A4D00B3D6C2 /* minus.png */; };
+		D82210EA17942A4D00B3D6C2 /* multiplication.png in Resources */ = {isa = PBXBuildFile; fileRef = D82210E717942A4D00B3D6C2 /* multiplication.png */; };
+		D82210EC17942A5F00B3D6C2 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = D82210EB17942A5F00B3D6C2 /* plus.png */; };
+		D84285D6178F1F8200D2B9C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D84285D5178F1F8200D2B9C3 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2339814C178EE4DA00209756 /* Prova_CCAdd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prova_CCAdd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2339814F178EE4DA00209756 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		23398152178EE4DA00209756 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		23398153178EE4DA00209756 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		23398154178EE4DA00209756 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		23398157178EE4DA00209756 /* Prova_CCAdd-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Prova_CCAdd-Info.plist"; sourceTree = "<group>"; };
+		23398159178EE4DA00209756 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2339815B178EE4DA00209756 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2339815D178EE4DA00209756 /* Prova_CCAdd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Prova_CCAdd-Prefix.pch"; sourceTree = "<group>"; };
+		2339815F178EE4DA00209756 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		23398165178EE4DA00209756 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2339816C178EE50400209756 /* Control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Control.h; sourceTree = "<group>"; };
+		2339816D178EE50400209756 /* Control.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Control.m; sourceTree = "<group>"; };
+		2339816F178EE51700209756 /* MathModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathModel.h; sourceTree = "<group>"; };
+		23398170178EE51700209756 /* MathModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathModel.m; sourceTree = "<group>"; };
+		D82210E517942A4D00B3D6C2 /* division.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = division.png; sourceTree = "<group>"; };
+		D82210E617942A4D00B3D6C2 /* minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minus.png; sourceTree = "<group>"; };
+		D82210E717942A4D00B3D6C2 /* multiplication.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = multiplication.png; sourceTree = "<group>"; };
+		D82210EB17942A5F00B3D6C2 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		D84285D4178F1F8200D2B9C3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D84285D5178F1F8200D2B9C3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23398149178EE4DA00209756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23398150178EE4DA00209756 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23398143178EE4DA00209756 = {
+			isa = PBXGroup;
+			children = (
+				D84285D4178F1F8200D2B9C3 /* AppDelegate.h */,
+				D84285D5178F1F8200D2B9C3 /* AppDelegate.m */,
+				2339816C178EE50400209756 /* Control.h */,
+				2339816D178EE50400209756 /* Control.m */,
+				2339816F178EE51700209756 /* MathModel.h */,
+				23398170178EE51700209756 /* MathModel.m */,
+				D82210E41793E7E200B3D6C2 /* Operators images */,
+				23398155178EE4DA00209756 /* Prova_CCAdd */,
+				2339814E178EE4DA00209756 /* Frameworks */,
+				2339814D178EE4DA00209756 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2339814D178EE4DA00209756 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2339814C178EE4DA00209756 /* Prova_CCAdd.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2339814E178EE4DA00209756 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2339814F178EE4DA00209756 /* Cocoa.framework */,
+				23398151178EE4DA00209756 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23398151178EE4DA00209756 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23398152178EE4DA00209756 /* AppKit.framework */,
+				23398153178EE4DA00209756 /* CoreData.framework */,
+				23398154178EE4DA00209756 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		23398155178EE4DA00209756 /* Prova_CCAdd */ = {
+			isa = PBXGroup;
+			children = (
+				23398164178EE4DA00209756 /* MainMenu.xib */,
+				23398156178EE4DA00209756 /* Supporting Files */,
+			);
+			path = Prova_CCAdd;
+			sourceTree = "<group>";
+		};
+		23398156178EE4DA00209756 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23398157178EE4DA00209756 /* Prova_CCAdd-Info.plist */,
+				23398158178EE4DA00209756 /* InfoPlist.strings */,
+				2339815B178EE4DA00209756 /* main.m */,
+				2339815D178EE4DA00209756 /* Prova_CCAdd-Prefix.pch */,
+				2339815E178EE4DA00209756 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D82210E41793E7E200B3D6C2 /* Operators images */ = {
+			isa = PBXGroup;
+			children = (
+				D82210EB17942A5F00B3D6C2 /* plus.png */,
+				D82210E617942A4D00B3D6C2 /* minus.png */,
+				D82210E717942A4D00B3D6C2 /* multiplication.png */,
+				D82210E517942A4D00B3D6C2 /* division.png */,
+			);
+			name = "Operators images";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2339814B178EE4DA00209756 /* Prova_CCAdd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23398169178EE4DA00209756 /* Build configuration list for PBXNativeTarget "Prova_CCAdd" */;
+			buildPhases = (
+				23398148178EE4DA00209756 /* Sources */,
+				23398149178EE4DA00209756 /* Frameworks */,
+				2339814A178EE4DA00209756 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Prova_CCAdd;
+			productName = Prova_CCAdd;
+			productReference = 2339814C178EE4DA00209756 /* Prova_CCAdd.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23398144178EE4DA00209756 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Carlo Carlucci";
+			};
+			buildConfigurationList = 23398147178EE4DA00209756 /* Build configuration list for PBXProject "Prova_CCAdd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 23398143178EE4DA00209756;
+			productRefGroup = 2339814D178EE4DA00209756 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2339814B178EE4DA00209756 /* Prova_CCAdd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2339814A178EE4DA00209756 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2339815A178EE4DA00209756 /* InfoPlist.strings in Resources */,
+				23398160178EE4DA00209756 /* Credits.rtf in Resources */,
+				23398166178EE4DA00209756 /* MainMenu.xib in Resources */,
+				D82210E817942A4D00B3D6C2 /* division.png in Resources */,
+				D82210E917942A4D00B3D6C2 /* minus.png in Resources */,
+				D82210EA17942A4D00B3D6C2 /* multiplication.png in Resources */,
+				D82210EC17942A5F00B3D6C2 /* plus.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23398148178EE4DA00209756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2339815C178EE4DA00209756 /* main.m in Sources */,
+				2339816E178EE50400209756 /* Control.m in Sources */,
+				23398171178EE51700209756 /* MathModel.m in Sources */,
+				D84285D6178F1F8200D2B9C3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		23398158178EE4DA00209756 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23398159178EE4DA00209756 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2339815E178EE4DA00209756 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2339815F178EE4DA00209756 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		23398164178EE4DA00209756 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23398165178EE4DA00209756 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23398167178EE4DA00209756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		23398168178EE4DA00209756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2339816A178EE4DA00209756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Prova_CCAdd/Prova_CCAdd-Prefix.pch";
+				INFOPLIST_FILE = "Prova_CCAdd/Prova_CCAdd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2339816B178EE4DA00209756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Prova_CCAdd/Prova_CCAdd-Prefix.pch";
+				INFOPLIST_FILE = "Prova_CCAdd/Prova_CCAdd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23398147178EE4DA00209756 /* Build configuration list for PBXProject "Prova_CCAdd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23398167178EE4DA00209756 /* Debug */,
+				23398168178EE4DA00209756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23398169178EE4DA00209756 /* Build configuration list for PBXNativeTarget "Prova_CCAdd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2339816A178EE4DA00209756 /* Debug */,
+				2339816B178EE4DA00209756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23398144178EE4DA00209756 /* Project object */;
+}
