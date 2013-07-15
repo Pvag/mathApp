@@ -93,6 +93,7 @@
 
 #pragma mark -
 #pragma mark NSCoding methods
+// Implement these  methods to make the encoding of objects possible
 
 - (void)encodeWithCoder:(NSCoder *)aCoder {
     [aCoder encodeObject:[NSNumber numberWithFloat:self.firstNumber]
@@ -116,6 +117,7 @@
 }
 
 #pragma mark NSCopying methods
+// Impelement this method to make the copying of objects possible
 
 - (id)copyWithZone:(NSZone *)zone {
     MathModel *mathModelCopy = [[[self class] allocWithZone:zone] init];

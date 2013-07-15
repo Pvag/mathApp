@@ -61,11 +61,6 @@
     [self.operatorImageWell.cell setImage:operatorImage];
 }
 
-- (void)updateMathModelAndView {
-    [self updateMathModel];
-    [self updateView];
-}
-
 - (void)storeDataToFile {
     NSData *dataFromModelObject = [NSKeyedArchiver archivedDataWithRootObject:self.mathModel];
     [dataFromModelObject writeToFile:self.appDataPath atomically:YES];
@@ -78,7 +73,7 @@
         // Retrieve the data from the archive
         NSData *dataFromArchivedMathModel = [NSData dataWithContentsOfFile:self.appDataPath];
         // Build the model object from the retrieved data
-        self.mathModel = [[NSKeyedUnarchiver unarchiveObjectWithData:dataFromArchivedMathModel] copy];
+        self.mathModel = [NSKeyedUnarchiver unarchiveObjectWithData:dataFromArchivedMathModel];
         // Update the view with the retrieved values
         [self updateView];
     }

@@ -26,7 +26,6 @@
 -(IBAction)operatorPressed:(NSButton *)sender;
 - (void)updateMathModel;
 - (void)updateView;
-- (void)updateMathModelAndView;
 - (void)storeDataToFile;
 - (void)loadDataFromFile;
 

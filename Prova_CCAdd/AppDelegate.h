@@ -13,6 +13,7 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+// An outlet to the controller object in the nib
 @property (strong, nonatomic) IBOutlet Control *mathController;
 
 @end
