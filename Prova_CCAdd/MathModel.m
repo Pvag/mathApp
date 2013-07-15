@@ -8,15 +8,19 @@
 
 #import "MathModel.h"
 
+// Operators images files names
 #define kSumOperatorImageFileName @"plus"
 #define kSubtractionOperatorImageFileName @"minus"
 #define kMultiplicationOperatorImageFileName @"multiplication"
 #define kDivisionOperatorImageFileName @"division"
+
+// Operators buttons tags (see property inspector in interface builder)
 #define kSumOperatorTag 0
 #define kSubtractionOperatorTag 1
 #define kMultiplicationOperatorTag 2
 #define kDivisionOperatorTag 3
 
+// Elements names for encoding and decoding
 #define kFirstNumber @"firstNumber"
 #define kSecondNumber @"secondNumber"
 #define kResult @"result"
@@ -93,7 +97,7 @@
 
 #pragma mark -
 #pragma mark NSCoding methods
-// Implement these  methods to make the encoding of objects possible
+// Implement these  methods to make the encoding and decoding of objects possible
 
 - (void)encodeWithCoder:(NSCoder *)aCoder {
     [aCoder encodeObject:[NSNumber numberWithFloat:self.firstNumber]
@@ -117,7 +121,7 @@
 }
 
 #pragma mark NSCopying methods
-// Impelement this method to make the copying of objects possible
+// Impelement this method to make the copying (using the method copy) of objects possible
 
 - (id)copyWithZone:(NSZone *)zone {
     MathModel *mathModelCopy = [[[self class] allocWithZone:zone] init];
